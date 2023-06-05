@@ -9,12 +9,12 @@ export default function Home() {
 
   return (
     <main className="flex justify-center items-center flex-col ps-24">
-      <h1 className="text-[36px] mb-6 mt-40 bg-slate-200 rounded-lg underline"> On Change Handle</h1>
+      <h1 className="text-[36px] mb-6 mt-40 bg-blue-200 rounded-lg underline"> On Change Handle</h1>
       <input
         type="text"
         value={inputVal}
         placeholder="write some thing here"
-        className="border text-[30px] justify-center bg-blue-100 rounded-lg"
+        className="border text-[30px] justify-center bg-gray-100 rounded-lg"
         onChange={(e) => setInputVal(e.target.value)}
       />
       <br />
